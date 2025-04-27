@@ -20,5 +20,7 @@ jobs:
 
       - name: Go Version
         run: go --version
+
+      - name: Force Success
         run: (exit 0)
 
