@@ -19,7 +19,7 @@ jobs:
           go-version: "1.23.0"
 
       - name: Go Version
-        run: go --version
+        run: go version
 
       - name: Force Success
         run: (exit 0)
